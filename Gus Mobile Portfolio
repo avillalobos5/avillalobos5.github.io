@@ -1,0 +1,489 @@
+<DOCTYPE html>
+<html>
+	<style>
+#header {
+	position: relative;
+	top: 0;
+	background-color: none;
+	
+}
+header:hover #header-img{
+	animation: imglogo 5s forwards;
+}		
+
+
+@keyframes imglogo {
+	100% {
+		transform: translate3d(600px, 0px, 0px) rotate(360deg);
+		}
+
+	
+
+
+
+}
+header:hover #circle{
+	animation: roll 5s forwards;
+	
+	opacity: 1;
+	
+}
+@keyframes roll {
+	
+	
+	100% {
+		transform: translate3d(600px, 0px , 0px);
+		/*box-shadow:	0 0 0 17px lightgrey inset, 0 0 0 50px white inset, 0 0 0 200px rgb(42, 230, 243) inset;*/
+	}
+}
+body {
+	background-color: lightgrey;
+}
+
+.background {
+background-image:url("https://drive.google.com/uc?export=view&id=1_SqWVQON1iUSPodVfiOtkWI0D0QwkoDd");
+background-size: cover;
+height: 350px;
+
+position: relative;
+
+
+  ;
+}
+
+h1{
+color: white;
+}
+
+#header-img {
+	position: absolute;
+	top:0px;
+	left: 0px;
+	height: 350px;
+	width: 350px;
+	z-index: 2;
+	}
+
+#circle {
+	position: absolute;
+    border-radius: 50%;
+	top: 42px;
+	left: 45px;
+    width: 260px;
+    height: 260px;
+	border: 0px solid gray;
+	transition: left 5s;
+	z-index: 1;
+	background-color: lightgrey;
+	box-shadow: 0 0 0 30px lightgrey;
+	
+}
+	/*box-shadow:	0 0 0 17px lightgrey inset, 0 0 0 50px white inset, 0 0 0 200px white inset;
+	*/
+
+#Gusmobile {
+	text-align: center;
+	color: black;
+	padding: 35px;
+}
+#housebot {
+	position:absolute;
+	border-bottom: 5px solid black;
+	border-left: 5px solid black;
+	width: 20px;
+	height:30px;
+	margin-left: auto;
+	margin-right: auto;
+	left: 110px;
+	top:-30px;
+	
+	
+}
+#house {
+	position:relative;
+	display:inline-block;
+	right: 25px;	
+	
+	
+}
+#housetopleft {
+	position: absolute;
+	border-top: 5px solid black;
+	width: 40px;
+	height: 0px;
+	transform: rotate(-30deg);
+	left: 100px;
+	bottom:30px;
+	
+
+}
+#housetopright {
+	position: absolute;
+	border-top: 5px solid black;
+	width: 40px;
+	height: 0px;
+	transform: rotate(30deg);
+	left: 132px;
+	bottom:30px;
+}
+#car {
+	position: relative;
+	display: inline-block;
+	right: 25px;
+}
+
+#topcarleft {
+	position: absolute;
+	border-top: 5px solid black;
+	width:10px;
+	height:0px;
+	transform: rotate(-40deg);
+	left: 141px;
+	bottom: 9px
+}	
+
+#topcarright {
+	position: absolute;
+	border-top: 5px solid black;
+	width:10px;
+	height:0px;
+	transform: rotate(40deg);
+	left: 170px;
+	bottom: 9px
+}	
+
+#topcarmid {
+	position: absolute;
+	border-top: 5px solid black;
+	width: 25px;
+	height:0px;
+	left: 148px;
+	bottom: 12px;
+}
+
+#botcarleft {
+	position:absolute;
+	border-top: 5px solid black;
+	border-left: 5px solid black;
+	width: 9px;
+	height: 10px;
+	left: 129px;
+	top: -10px;
+}
+
+#botcarright {
+	position:absolute;
+	border-top: 5px solid black;
+	border-right: 5px solid black;
+	width: 9px;
+	height: 10px;
+	left: 178px;
+	top: -10px;
+}
+	
+	
+
+
+	
+	
+
+#nav-bar {
+	color: white;
+	background-color: none;
+  position: fixed;
+  top: 0;
+  margin-left: 65%;
+  
+  
+	
+	
+}
+#topright {
+font-size: 50px;
+background-color:none;
+position: relative;
+float: right;  
+
+
+
+}
+
+ #topmenu {
+	
+	list-style: none;
+	padding:20px;
+  background-color: rgba(0,0,0,0.3);
+  float: right;
+   
+
+  
+  
+	
+	
+
+
+   }
+	
+
+
+a:link {
+	color: white;
+}
+a:visited {
+	color:white;
+}
+#topmenu a:hover {
+	color:yellow;
+	font-size: 5rem;
+	outline: 20px red;
+}
+ ul {display: inline-block}
+ 
+ #nav-div {
+	background-color: green;
+ }
+
+#videobox {
+  text-align: center;
+  left-margin: auto;
+  right-margin: auto;
+  border-top: 20px solid grey;
+}
+ #video {
+    width: 40%;
+   height: 600px;
+  }
+#about{
+	text-align: center;
+	color: white;
+	background-color:black;
+	font-size: 43px;
+}
+#aboutpara {
+	text-align: center;
+	padding: 60px;
+	border: 20px black solid;
+	width: 500px;
+	border-radius: 50%;
+	margin-left:auto;
+	margin-right:auto;
+}
+#services {
+	color: black;
+	font-size: 43px;
+	text-align: center;
+ 
+}
+#servlist {
+	display:block;
+	padding: 60px;
+	border: 25px black solid;
+	width: 500px;
+	margin-left: auto;
+	margin-right: auto;
+}
+#form {
+  text-align: center;
+}
+#contact {
+	color: black;
+	text-align: center;
+	border: 50px black solid;
+}
+
+@media (max-width: 767px) {
+  
+  p {font-size: 1rem}
+  .nav-link {font-size: 1.5rem;
+  display: flex;}
+  background-color: red;
+
+  #nav-bar {
+	color: white;
+	background-color: red;
+  position: fixed;
+  top: 0;
+  margin-left: auto;
+}
+  #topright {  
+  font-size:1.5ren;
+  background-color:none;
+  position: relative;
+  float: right;
+}
+ #topmenu a:hover {
+	color:yellow;
+	font-size: 1rem;
+}
+ #video {
+    width: 100%;
+   height: 350px;
+  }
+ #aboutpara {
+	width: 50%;
+}
+  #servlist {
+	width: 50%;
+
+}
+
+header:hover #header-img{
+	animation: imglogo 5s forwards;
+}		
+
+  
+
+@keyframes imglogo {
+	100% {
+		transform: translate3d(0px, 0px, 0px) rotate(360deg);
+		}
+ 
+	
+
+
+
+}
+header:hover #circle{
+	animation: roll 5s forwards;
+	
+	opacity: 1;
+	
+}
+@keyframes roll {
+	
+	
+	100% {
+		transform: translate3d(0px, 0px , 0px);
+		/*box-shadow:	0 0 0 17px lightgrey inset, 0 0 0 50px white inset, 0 0 0 200px rgb(42, 230, 243) inset;*/
+	}
+
+
+  
+  }
+
+
+
+.flex {
+  display: flex;
+  justify-content:center;
+  padding: 20px;
+}
+.flex a:hover {
+	background-color:black !important;
+  border: 10px solid purple;
+  font-size: 1.5rem;
+}
+
+
+#face {
+  background-color: lightblue;
+  padding: 20px;
+}
+#insta {
+  background-color: orange;
+  padding: 20px;
+}
+body {
+  background-color: lightgrey;
+}
+
+
+</style>
+
+
+
+
+<div class=background>
+	
+	<header id=header>
+ 		<nav id=nav-bar>
+			<div id=topright>
+			  <ul> 
+			  	<li id=topmenu><a class=nav-link href=#about> About </a></li>
+				  <li id=topmenu><a class=nav-link href=#services>Services</a></li>
+			  	<li id=topmenu><a class=nav-link href=#contact>Contact Info</a></li>
+		
+		  	</ul>
+			</div>
+		</nav>
+  		<h1>
+			<div id=circle>
+				<div id=Gusmobile>GUS MOBILE AUTO LLC</div>
+				<div id=house> 
+					<div id=housetopleft></div>
+					<div id=housetopright></div>
+					
+				<div id=housebot></div>
+				</div>
+				<div id=car>
+					<div id=topcarleft></div>
+					<div id=topcarmid></div>
+					<div id=topcarright></div>
+					<div id=botcarleft></div>
+					<div id=botcarright></div>
+				</div>
+			</div>
+  			<!--	<img id=header-img src="https://drive.google.com/uc?export=view&id=14eE0YJTbXiHip1Xa_KMI4mNPY1XSGv5X">-->
+				<img id=header-img src="https://drive.google.com/uc?export=view&id=1q5pc2Jdi4SOZv7OCGrf2EF05K_DF4VPl">
+			
+		</h1>
+	</header>
+</div>
+<div id=videobox>
+<iframe id=video
+        src="https://www.youtube.com/embed/DKF5dKo_r_Y"
+        allowfullscreen
+        >
+ </iframe>
+</div>
+<h2 id=about> About </h2>
+<body>
+
+<p id=aboutpara> Hello! Thank you for visiting Gus Mobile Auto! I hope to be able to help with your vehicle needs. I work at your home to help you keep away from shops as much as possible !
+
+I am a Universal Technical Institute graduate for Diesel Technology. I enjoy working on vehicles just as they were my own.
+
+All my work is completely mobile. With the proper precautions taken through this Covid 19 process. Rest assured that we will disinfect anything we touch so you can be safe on the road.
+</p>
+<br>
+<br>
+<br>
+
+<h2 id=services> Services </h2>
+
+	<ul id=servlist>
+		<li>$65 - Diagnosis fee includes all tools and material needed to perform diagnosis.</li>
+		<li> Ac Perfomance Test.</li>
+		<li> Full vehicle diagnosis, Visual, and Electronic.</li>
+		<li>$85 - Flate rate for any vehicle Repairs.
+	</ul>
+<br>
+<br>
+<br>
+<br>
+  <form id="form" action="https://www.freecodecamp.com/email-submit">
+    Email:
+    <input id= email type="email" name="email" placeholder="Your Email" required>
+    <br>
+    <br>
+    <input name="submit" id="submit" type="submit">
+  </form>
+<br>
+
+<h2 id=contact>
+<p>
+	Name: Gustavo Pacheco <br>
+	Phone: 520-582-5610 <br>
+	Email: Gusmobileauto@gmail.com
+</p>
+  </h2>  
+  <div class=flex>
+    <div><a id=face href="https://www.facebook.com/GusMobileAuto" target=_blank>Facebook</a></div>
+    <div><a id=insta href="https://www.instagram.com/gusmobileautollc/" target=_blank>Instagram</a></div>
+  </div>  
+  <footer>
+    <p>End</p>
+  </footer>
+
+
+</html>
