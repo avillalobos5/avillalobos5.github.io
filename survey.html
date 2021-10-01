@@ -1,0 +1,103 @@
+<DOCTYPE html>
+<html>
+<style>
+#title {
+  background-color: lightgreen;
+  text-align: center;
+  color: black;
+  font-size:80px;
+  border: 10px solid darkgreen;
+  width:600px;
+  margin:15px auto;
+}
+#description {
+  text-align: center;
+  background-color:lightgreen;
+  border: 3px solid darkgreen;
+  width: 400px;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 30px;
+  
+}
+#survey-form {
+  border: 5px solid black;
+  width: 200px;
+  margin: 0 auto;
+  padding: 10px;
+  text-align: left;
+  background-color: lightgreen;
+  
+}
+#name {
+  margin:0px auto;
+  input-align: right;
+}
+#email {}
+#number {
+  min: 6;
+  max: 8;
+}
+#submit {
+  position:relative;
+  left: 33%;
+  color:white;
+  background: black;
+}
+body {background-color:white;}
+
+</style>
+
+
+<h1 id=title> Title Here </h1>
+<p id=description> Description Here please<p>
+
+
+<form id=survey-form action:>
+  <label id=name-label>Name</label><br>
+  <input type="text" id="name" placeholder="Enter Name Here" required> 
+  <br>
+  <br>
+  <label id=email-label>Email</label> <br>
+  <input id=email type=email placeholder="Enter Email Here" required>
+  <br>
+  <br>
+  <label id=number-label>Number 1-100</label> <br>
+  <input id=number type=number placeholder="1-100" min=1 max=100>
+  <br>
+  <br>
+  <label id=dropdown-label>Drop Down<br>
+  <select id=dropdown name=dropdown>
+    <option value=first>First</option>
+    <option value=second>Second</option>
+    <option value=third>Third</option>
+    <option value=fourth>Fourth</option>
+    </select></label>
+  <br>
+  <br>
+  <label for=r1>
+    <input id=r1 type=radio name=radios value=r1> Radio 1
+  </label>
+  <label for=r2>
+    <input id=r2 type=radio name=radios value=r2> Radio 2
+  </label><br>
+  <label for=ch1>
+    <input id=ch1 type=checkbox name=checkers value=ch1>Ch Box 1
+  </label>
+  <label for=ch2>
+    <input id=ch2 type=checkbox name=checkers value=ch2>CH Box 2
+  </label><br>
+  <br>
+  <textarea type=text placeholder=Comments></textarea><br>
+  <br>
+  <button id=submit type=submit> Submit</button>
+  
+</form>
+
+
+
+
+
+
+
+</html>
