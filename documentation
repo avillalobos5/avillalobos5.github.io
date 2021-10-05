@@ -1,0 +1,108 @@
+<DOCTYPE html>
+<html>
+<style>
+#navbar {
+  display: inline-block;
+  position: fixed;
+  border-right: solid black;
+  font-size: 2.5rem !important;
+  width: 10%;
+  height: 100%;
+}
+.nav-link {
+  position: relative;
+  font-size: 2rem;
+}
+li {
+  position: relative;
+  list-style-type:none;
+  border:solid black;
+  padding: 20px;
+}
+#main-doc {
+  
+  font-size: 4rem;
+  margin-left: 20%;
+  position: relative;
+  background-color: white;
+}
+.main-section {
+  font-size: 50px;
+}
+p {
+  font-size: 30px;
+}
+code {
+  font-size: 40px
+}
+
+
+@media (max-width: 900px){
+  p {
+    color: red;}
+  #nav-link {
+    font-size: 1vw;
+  }
+
+}
+</style>
+
+<nav id="navbar">
+  <header id="header">Documentation</header>
+  <ul>
+    <li> <a class=nav-link href="#intro"> Intro </a> </li>
+    <li> <a class=nav-link href="#second"> Second </a> </li>
+    <li> <a class=nav-link href="#third"> Third </a> </li>
+    <li> <a class=nav-link href="#fourth"> Fourth </a> </li>
+    <li> <a class=nav-link href="#last"> Last </a> </li>
+</nav>
+
+<main id="main-doc"> Main Content 
+  <section id="intro" class="main-section">
+    <header>Intro</header> 
+    <p> This is paragraph 1 of Intro </p>
+    <p> This is paragraph 2 of Intro </p>
+    <code> code for intro goes here </code>
+    <ul>
+      <li> List for Intro </li>
+    </ul>
+  </section>
+  <section id="second" class="main-section">
+  <header>Second</header> 
+    <p> This is paragraph 1 of Second</p>
+    <p> This is paragraph 2 of Second</p>
+    <code> Code for Second goes here </code>
+    <ul>
+      <li> List for Second </li>
+    </ul>
+  </section>
+  <section id="third" class="main-section">
+  <header>Third</header>
+    <p> This is paragraph 1 of Third </p>
+    <p> This is paragraph 2 of Third </p>
+    <code> Code for Third goes here </code>
+    <ul>
+      <li> List for Third </li>
+    </ul>
+  </section>
+  <section id="fourth" class="main-section">
+  <header>Fourth</header> 
+    <p> This is paragraph 1 of Fourth </p>
+    <p> This is paragraph 2 of Fourth </p>
+    <code> Code for Fourth goes here </code>
+    <ul>
+      <li> List for Fourth </li>
+    </ul>
+  </section>
+  <section id="last" class="main-section">
+  <header>Last</header> 
+    <p> This is paragraph 1 of Last </p>
+    <p> This is paragraph 2 of Last </p>
+    <code> Code for Last goes here </code>
+    <ul>
+      <li> List for Last </li>
+    </ul>
+  </section>
+</main>
+
+<html> 
