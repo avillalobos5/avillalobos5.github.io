@@ -5,7 +5,7 @@
 body {
     margin:0;
     display: grid;
-    grid-template-columns: repeat(2, 4rem);
+    grid-template-columns:  repeat(2, 16rem);
     grid-template-rows: 7rem 2rem 7rem;
     gap: .5rem;
     cursor: pointer;
@@ -15,7 +15,7 @@ body {
 
 .deck {
     height: 100%;
-    width: 100%;
+    width: 25%;
     border: 1px solid black;
     display: flex;
     justify-content: center;
@@ -24,14 +24,18 @@ body {
     border-radius: .5rem;
     color: white;
     user-select: none;
+    
 }
 
 .computer-deck {
     background-color: green;
+    margin-left: auto;
+
 }
 
 .player-deck {
     background-color: blue;
+    margin-left: auto;
 }
 
 .text {
@@ -44,12 +48,12 @@ body {
 .card {
     position: relative;
     height: 100%;
-    width: 100%;
+    width: 25%;
     border: 1px solid black;
     border-radius: .5rem ;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items:center;
     font-size: 4rem;
 }
 
@@ -80,7 +84,7 @@ body {
 }
 
 .rules {
-    grid-template-columns: 4rem;
     grid-column: span 2;
-    background-color: yellow;
+    background-color: lightgray;
+    color:black;
 }
